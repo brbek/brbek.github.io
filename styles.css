@@ -21,11 +21,7 @@ display: block;
 min-width:auto;
 }
 
-.trio {
-  margin: auto;
-  max-height: 80vh;
-  width: 100%;
-}
+
 
 .wide {
   display: block;
@@ -42,15 +38,22 @@ padding: 3px;}
   display: flex;
   
 }
+.trio {
+  margin: auto;
+  max-height: 80vh;
+  width: 100%;
+}
 
 .row {
   position:relative;
   text-align: center;
+  max-height: 80vh;
 }
 
 /* fcf3f6,  */
 .column {
   text-align: center;
   margin: auto;
+  max-height: 80vh;
 }
 
