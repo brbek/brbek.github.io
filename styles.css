@@ -39,6 +39,7 @@ padding: 3px;}
   
 }
 .trio {
+  display: block;
   margin: auto;
   max-height: 80vh;
   width: 100%;
@@ -47,13 +48,13 @@ padding: 3px;}
 .row {
   position:relative;
   text-align: center;
-  max-height: 80vh;
+
 }
 
 /* fcf3f6,  */
 .column {
   text-align: center;
   margin: auto;
-  max-height: 80vh;
+  display: block;
 }
 
