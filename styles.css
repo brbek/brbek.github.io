@@ -1,11 +1,17 @@
 * {
   box-sizing: border-box;
 }
-h2 {
+#grad{
+  background-color: #fcf3f6;
+}
+
+
+h1,h2,h3 {
 text-align: center;
 }
-h1 {
-text-align: center;
+p {
+  text-align: center;
+  font-size: large;
 }
 
 .slika {
@@ -16,28 +22,35 @@ min-width:auto;
 }
 
 .trio {
+  margin: auto;
+  max-height: 80vh;
   width: 100%;
-    padding: 3px;
 }
 
 .wide {
-  padding: 40px 60px;
-  width: 100%;
+  display: block;
+  padding: 0.1em;
+  max-width: 100%;
+  max-height: 90vh;
+  margin: auto;
 }
 
 video{ width: 100%;
+  max-height: 90vh;
 padding: 3px;}
 .row {
   display: flex;
+  
 }
 
-/* Create three equal columns that sits next to each other */
+.row {
+  position:relative;
+  text-align: center;
+}
+
+/* fcf3f6,  */
 .column {
-  flex: 50%;
+  text-align: center;
+  margin: auto;
 }
 
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;}
-  .wide{ padding: 5px 3px;}
-}
